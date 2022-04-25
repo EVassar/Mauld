@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+</head>
+<body>
+    <body style="background: url('background5.webp')no-repeat fixed; background-size: cover;">     
+        <div class='box'>
+            <a href = contact.html style="text-decoration:none;">
+                <div class = 'glow-on-hover'>
+                    <span class="painpeko">Contact</span>
+                </div>
+            </a>
+            <a href = index.html style="text-decoration:none;">
+                <div class = 'glow-on-hover'>
+                    <span class="painpeko">Gallery</span>
+                </div>
+            </a>
+            <a href="about.html" style="text-decoration: none;">
+                <div class = 'glow-on-hover'>
+                    <span class="painpeko">About Me</span>
+                </div>
+            </a>
+            <a>
+                <div class = 'glow-on-hover'>
+                    <span class="painpeko">Times</span>
+                </div>
+            </a>
+            <a href='https://www.youtube.com/channel/UC75znrdeWHrfrBIDL79mmvQ' style="text-decoration:none;">
+                <div class = 'glow-on-hover'>
+                    <span class="painpeko">YouTube</span>
+                </div>
+            </a>
+        </div>
+      
+        <div class = 'timebox'>
+            <div class="buttons">
+            <a class="aa" href = # onclick=All() style = "text-decoration: none;">
+                <div class = 'glow-on-hover'>
+                    <span class="painpeko">All</span>
+                </div>
+            </a>  
+            <a class="aa" href = # onclick=DH() style = "text-decoration: none;">
+                <div class = 'glow-on-hover'>
+                    <span class="painpeko">Downhill</span>
+                </div>
+            </a>
+            <a class="aa" href = # onclick=TR() style = "text-decoration: none;">
+                <div class = 'glow-on-hover'>
+                    <span class="painpeko">Tracks</span>
+                </div>
+            </a>
+            </div>
+            <a>
+                
+                <span id="times" class="times">
+                    <br class="bigbr">All<br>
+                    Akina: DWG S13 <span class="blue">4:24</span><br>
+                    Nagao: MR-S <span class="blue">4:28</span><br>
+                    Nanamagiri: MR-S <span class="blue">3:49:177</span><br>
+                    Spa: F1 2021 <span class="blue">1:47:7</span><br>
+                    Harugahara: MR-S <span class="blue">4:26:387</span><br>
+                    Sadamine: MR-S <span class="blue">4:42:046</span><br>
+                    Usui: MR-S <span class="blue">3:43:994</span><br>
+                    Myogi: MR-S <span class="blue">3:13:541</span><br>
+                </span>
+            </a>
+        </div>
+</body>
+<script>
+    function All() {
+        document.getElementById('times').innerHTML ="<br class='bigbr'>All<br>Akina: DWG S13 <span class='blue'>4:24</span><br>Nagao: MR-S <span class='blue'>4:28</span><br>Nanamagiri: MR-S <span class='blue'>3:49:177</span><br>Spa: F1 2021 <span class='blue'>1:47:7</span><br>Harugahara: MR-S <span class='blue'>4:26:387</span><br>Sadamine: MR-S <span class='blue'>4:42:046</span><br>Usui: MR-S <span class='blue'>3:43:994</span><br>Myogi: MR-S <span class='blue'>3:13:541</span><br>" ;
+    }
+    function DH() {
+        document.getElementById('times').innerHTML ="<br class='bigbr'>Downhill<br>Akina: DWG S13 <span class='blue'>4:24</span><br>Nagao: MR-S <span class='blue'>4:28</span><br>Nanamagiri: MR-S <span class='blue'>3:49:177</span><br>Harugahara: MR-S <span class='blue'>4:26:387</span><br>Sadamine: MR-S <span class='blue'>4:42:046</span><br>Usui: MR-S <span class='blue'>3:43:994</span><br>Myogi: MR-S <span class='blue'>3:13:541</span><br>" ;
+    }
+    function TR() {
+        document.getElementById('times').innerHTML ="<br class='bigbr'>Tracks<br>Spa: F1 2021 <span class='blue'>1:47:7</span><br>" ;
+    }
+</script>
+</html>
