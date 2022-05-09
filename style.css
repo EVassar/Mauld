@@ -221,4 +221,7 @@ span{
     .bigbr{
         margin-top: 10px;
     }
+    .tcontentbox{
+        top: 80%;
+    }
 }
